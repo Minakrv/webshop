@@ -4,6 +4,9 @@
     align-items: center;
     background-color: #333;
     padding: 1rem 2rem;
+    max-width: 1520px;
+    width: 100%;
+    padding: 4px;
   }
   
   .navbar-menu  {
@@ -16,10 +19,13 @@
   
   .navbar-links {
     list-style: none;
-    /* list-style: culom; */
-    display: flex;
+    display: fixed;
+    top: 0;
+    left: 0;
     margin: 0;
     padding: 0;
+    width: 300px;
+    height: 100%;
   }
   
   .navbar-links li {
